@@ -1,0 +1,339 @@
+@media (max-width:1198px) {
+    .about-websit b{
+        font-size: 60px;
+        margin-top: 40px;
+    }
+    .about-websit b:hover{
+        font-size: 65px;
+        letter-spacing: 2px;
+    }
+    .about-websit h3{
+        margin-top: 30px;
+    }
+    .abour-me{
+        margin-top: 70px;
+    }
+    .abour-me img{
+        height: 500px;
+       margin-left: -30px;
+    } 
+    .abour-me h4{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .abour-me strong{
+        margin-top: 10px;
+        display: block;
+        
+    } 
+    .abour-me h5{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .abour-me h6{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .contact b{
+        font-size: 50px;
+    }
+    .contact ul li a{
+        font-size: 20px;
+        padding: 10px 15px;
+        
+    } 
+    .contact hr{
+        margin-top: 40px;
+    }
+    .contact ul{
+        margin-top: 25px;
+    }
+    .contact{
+        height: 50px;
+    }
+    .skill{
+        margin-top: 50px;
+       
+    }
+    .css-about img{
+        height: 300px;
+        width: 350px;
+    }
+    .about b{
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    .about b:hover{
+        color: green;
+        letter-spacing: 5px;
+    }
+}
+@media (max-width:991px) {
+    .dropdown-logl ul{
+        position: relative;
+    } 
+    .dropdown-logl ul li{
+        list-style: none;
+        display: inline-block;
+        text-decoration: none;
+    } 
+    .dropdown-logl ul li ul{
+        position: absolute;
+        top: 85%;
+        right: 50%;
+        opacity: 0;
+        visibility: hidden;
+        margin-left: 0;
+        transform: scaley(0);
+        transform-origin: top center;
+        transition: .5s;
+        
+    }
+    .dropdown-logl ul li ul li{
+        display: inline-block;
+    }
+    .dropdown-logl ul li ul li a{
+        display: block;
+        padding: 0px 10px;
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 10px 10px;
+        transition: .5s;
+        color: black;
+        font-size: 20px;
+        color: red;
+        margin-left: 20px;
+    }
+    .dropdown-logl li:hover ul{
+        opacity: 1;
+      visibility: visible;
+      transform: scaley(1);
+      margin-bottom: 40px;
+    } 
+    .dropdown-logl ul li ul li a:hover{
+        background-color: rgb(6, 113, 113);
+        color: rgb(255, 255, 255);
+        
+    }
+    .contact b{
+        font-size: 40px;
+    }
+    .contact ul li a{
+        font-size: 20px;
+        padding: 10px 15px;
+        
+    } 
+    .contact hr{
+    color: rgb(250, 250, 250);
+    font-size: 50px;
+    border: none;
+    text-decoration: none;
+    margin-top: 0px;
+    box-shadow: 0px 0px rgb(245, 242, 242);
+    text-align: center;
+    }
+    .contact ul{
+        margin-top: 25px;
+    }
+    .contact{
+        height: 200px;
+        margin-top: 20px;
+    }
+    .contact ul{
+        margin-bottom: 30px;
+    }
+    .skill b{
+        margin-top: 50px;
+        display: block;
+    }
+    .about-skill{
+        height: 400px;
+    }
+    .about b{
+        text-align: left;
+        margin-left: 150px;
+        margin-bottom: -30px;
+    }
+    .futter b{
+        font-size: 45px;
+        border-right: none;
+        margin-bottom: -10px;
+    }
+    .futter h2{
+        font-size: 30px;
+        margin-top: 10px;
+        padding: -15px;
+    }
+    .about-skill b{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .about-skill{
+        height: 400px;
+    }
+}
+@media (max-width:767px) {
+    .about-websit b{
+        font-size: 40px;
+    }
+    .about-websit b:hover{
+        font-size: 45px;
+        letter-spacing: 2px;
+    }
+    .dropdown-logl ul{
+        position: relative;
+    } 
+    .dropdown-logl ul li{
+        list-style: none;
+        display: inline-block;
+        text-decoration: none;
+    } 
+    .dropdown-logl ul li ul{
+        position: absolute;
+        top: 85%;
+        right: 30%;
+        opacity: 0;
+        visibility: hidden;
+        margin-left: 0;
+        transform: scaley(0);
+        transform-origin: top center;
+        transition: .5s;
+        
+    }
+    .dropdown-logl ul li ul li{
+        display: inline-block;
+    }
+    .dropdown-logl ul li ul li a{
+        display: block;
+        padding: 0px 10px;
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 10px 10px;
+        transition: .5s;
+        color: black;
+        font-size: 20px;
+        color: red;
+        margin-left: 20px;
+    }
+    .dropdown-logl li:hover ul{
+        opacity: 1;
+      visibility: visible;
+      transform: scaley(1);
+      margin-bottom: 40px;
+    } 
+    .dropdown-logl ul li ul li a:hover{
+        background-color: rgb(6, 113, 113);
+        color: rgb(255, 255, 255);
+        
+    }
+    .about b{
+        margin-left: 120px;
+        margin-bottom: -30px;
+        margin-top: 20px;
+    }
+    
+}
+@media (max-width:575px){
+    .about b{
+        margin-left: 25px;
+       font-size: 30px;
+    }
+    .about b:hover{
+        letter-spacing: 3px;
+    }
+    .about-websit b{
+        font-size: 35px;
+        
+    }
+    .about-websit b:hover{
+        color: green;
+        font-size: 37px;
+        letter-spacing: 1px;
+    }
+    .about-websit h3{
+        font-size: 25px;
+    }
+}
+@media (max-width:519px){
+    .contact ul li a{
+        padding: 5px 10px;
+    }
+    .skill{
+        margin-top: -50px;
+       
+    }
+    .skill b{
+        font-size: 45px;
+    }
+}
+@media (max-width:479px){
+    .contact ul li{
+        margin-top: 10px;
+    }
+    .contact ul{
+        margin-top: 10px;
+    }
+    .about-skill{
+        height: 400px;
+    }
+    .skill b{
+        font-size: 30px;
+    }
+   
+}
+@media (max-width:451px){
+    .about-skill{
+        height: 450px;
+    }
+}
+@media (max-width:413px) {
+    .dropdown-logl ul li ul{
+        top: 85%;
+        right: 20%;
+        
+    }
+    .about b{
+        margin-left: 25px;
+       font-size: 30px;
+    }
+    .about b:hover{
+        letter-spacing: 1px;
+    }
+    .futter{
+        margin-top: 80px;
+    }
+}
+@media (max-width:363px){
+    .dropdown-logl ul li ul{
+        top: 85%;
+        right: 18%;
+        
+    }
+    .about-skill{
+        height: 600px;
+    }
+    .abour-me img{
+        height: 400px;
+    }
+}
+@media (max-width:343px){
+    .dropdown-logl ul li ul{
+        top: 85%;
+        right: 14%;
+        
+    }
+}
+@media (max-width:355px){
+    .dropdown-logl ul li ul{
+        top: 85%;
+        right: 15%;
+        
+    }
+}
+@media (max-width:331px){
+    .dropdown-logl ul li ul{
+        top: 75%;
+        right: 15%;
+        
+    }
+}

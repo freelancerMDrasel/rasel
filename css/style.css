@@ -1,0 +1,268 @@
+.header img{
+    height: 70px;
+    width: 200px;
+}
+.about-websit b{
+    font-size: 70px;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    transition: .4s;
+}
+.about-websit b:hover{
+    color: green;
+    font-size: 75px;
+    letter-spacing: 5px;
+}
+.about-websit h3{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abour-me{
+    margin-top: 100px;
+}
+.abour-me b{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 2px red;
+}
+.abour-me h4{
+    margin-top: 30px;
+    color: red;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+.abour-me img{
+    height: 600px;
+    width: 500px;
+} 
+.abour-me strong{
+    margin-top: 20px;
+    font-size: 20px;
+} 
+.abour-me h5{
+    margin-top: 30px;
+    color: green;
+    text-decoration: underline;
+    margin-bottom: 30px;
+} 
+.abour-me h6{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+} 
+.dropdown-logl ul{
+    position: relative;
+} 
+.dropdown-logl ul li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+} 
+.dropdown-logl ul li ul{
+    position: absolute;
+    top: 90%;
+    right: 30%;
+    opacity: 0;
+    visibility: hidden;
+    margin-left: 0;
+    transform: scaley(0);
+    transform-origin: top center;
+    transition: .5s;
+    
+}
+.dropdown-logl ul li ul li{
+    display: inline-block;
+}
+.dropdown-logl ul li ul li a{
+    display: block;
+    padding: 0px 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px 10px;
+    transition: .5s;
+    color: black;
+    font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+.dropdown-logl li:hover ul{
+    opacity: 1;
+  visibility: visible;
+  transform: scaley(1);
+  margin-bottom: 40px;
+} 
+.dropdown-logl ul li ul li a:hover{
+    background-color: rgb(6, 113, 113);
+    color: rgb(255, 255, 255);
+    
+}
+.contact{
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+} 
+.contact b{
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(6, 150, 150);
+}
+.contact ul{
+    text-align: center;
+    margin-top: 35px;
+}
+.contact  ul li{
+    display: inline-block;
+}
+.contact ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px 25px;
+    background-color: rgb(11, 103, 103);
+    border-radius: 5px;
+    color: #fff;
+    transition: .5s;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact hr{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    border: 2px solid rgb(2, 86, 109);
+    text-decoration: underline;
+    margin-top: 50px;
+    box-shadow: 1px 1px black;
+    text-align: center;
+} 
+.contact ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(2, 86, 109);
+}
+.skill{
+    margin-top: 100px;
+   
+}
+.skill b{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    transition: .5s;
+}
+.skill b:hover{
+    color: green;
+}
+.about-skill ul{
+    text-align: center;
+}
+.about-skill ul li{
+   display: inline-block;
+}
+.about-skill ul li i{
+    font-size: 30px;
+    background-color: green;
+    padding: 20px 12px;
+    border-radius: 20px 0px 20px 0px;
+}
+.about-skill b{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.about-skill p{
+    text-align: center;
+    font-size: 15px;
+}
+.about-skill{
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 500px;
+}
+.html-about{
+    margin-top: 100px;
+}
+.html-about img{
+    height: 300px;
+    width: 400px;
+}
+.html-about strong{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+.css-about{
+    margin-top: 50px;
+}
+.css-about img{
+    height: 300px;
+    width: 400px;
+}
+.css-about strong{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+.bootstrap-about{
+    margin-top: 100px;
+}
+.bootstrap-about img{
+    height: 300px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+.responciv-about{
+    margin-top: 100px;
+}
+.responciv-about img{
+    height: 300px;
+    width: 400px;
+}
+.futter{
+    margin-top: 200px;
+}
+.futter b{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    padding: 30px;
+    text-align: center;
+    border-right: 2px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.futter h2{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    padding: -10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.about b{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    color: red;
+    margin-bottom: 100px;
+    transition: .5s;
+}
+.about b:hover{
+    color: green;
+    letter-spacing: 10px;
+}
